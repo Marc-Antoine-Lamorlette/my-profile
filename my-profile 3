@@ -1,0 +1,163 @@
+body {
+background-color: rgb(230, 230, 230);
+color: rgb(30, 30, 30);
+font-family: 'Lobster', cursive;
+text-justify: center;
+}
+
+h1 {
+color: #0F4C81;
+font-family: 'Ultra', serif;
+font-size: 40px;
+letter-spacing: 5px;
+font-size: 
+p{text-justify: center;
+text-justify: justify;}
+}	
+
+@media (max-width: 540px) {
+  .container {
+	width: 300px;
+  }
+} 
+
+a {
+	text-decoration: none;
+	color: red;
+
+}
+a:hover {
+	color:blue;
+}
+
+.img-circle {
+	border-radius: 50%;
+
+}
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+}
+
+	
+.btn-blue {
+  background-color:#0F4C81;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+
+<!Doctype html>
+<html>
+<head>
+	 <title>Marc-Antoine's Profile</title>
+	 <meta name=d"escription" content="desc...">
+	 <meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+	 <script src="https://kit.fontawesome.com/13fdb7f03a.js" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<div>
+  <div>
+  	<div style="
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 2px 2px 3px red;
+    border-radius: 4px;
+    width: 900px;     /* Fix the width first*/
+    margin: 0px auto;
+}
+
+">
+    <center>
+    	<div></div>
+	 <h1>Hello, I'm Marc-Antoine 😆</h1>
+	    <img src="images/profile.jpg" class="img-circle shadowed" width="200px"  alt="Marc-Antoine Lamorlette" >
+	    <span class="avatar " data-hovertype="member" data-hoverid="35513" style="background-image:"></span>
+	    <p>Je suis passionné par le sport, le web et les nouvelles technologies, j'ai la chance de pouvoir développer mes compétences au sein de l'ESSEC dans le cadre de mon projet d'entrepreneuriat frenchwave.com .</p>   
+	    <a href="https://lewagon.com" class="btn-blue" target="_blank">Discover le Wagon</a>
+	</center>
+  </div>
+	
+   <div>
+   	<div style="
+    background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 2px 2px 3px red;
+    border-radius: 4px;
+    margin: 80px 0px 40px 16px;
+     width: 900px;
+     margin: 20px auto;
+">
+    <center>
+	<h2>Sport</h2>
+	<p>
+		i'm passionate in <strong>Sport ! 🥋🥊</strong> I have been practicing judo for 15 years, I also run and have participated in several marathons
+	</p>
+    </center>
+	
+   </div>
+
+	
+   <div>
+   	  <div style="
+    background: white;                         /* White background */
+    padding: 35px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 2px 2px 3px red;
+    border-radius: 4px;
+    margin: 80px 0px 40px 16px;
+     width: 900px;
+     margin: 20px auto;
+">
+    <center>
+	 <h2>Student at ESSEC BUSINESS SCHOOL in BBA</h2>
+
+	    <p>
+        The ESSEC Global BBA program is a multi-campus bachelor's degree in business administration, ranked 1st in France by L'Étudiant, Le Point and Challenges. This program is guided by its pioneering spirit, its international curriculum and its practical approach to business.
+        The cursus at Essec Business School trains oneself to develop skills in various fields such as marketing, management, economics, information systems, geopolitics, entrepreneurial spirit, creativity, team spirit and communication.</p>
+    </center>
+		
+   </div>
+	
+   <div class="card-white">
+   	<center>
+   		<h2>Follow me</h2>
+        <ul class="list-inline"
+      <li>
+	     <a href="https://www.facebook.com/marcantoine.lamorlette" target="_blank"><i class="fab fa-facebook"></i></a>
+        
+       </li>
+       <li>
+	     <a href="https://www.instagram.com/marc_nts/"target="_blank"><i class="fab fa-instagram"></i></a>
+	      
+        </li>
+        <li>
+	      <a href="https://www.linkedin.com/in/marc-antoine-lamorlette/"target="_blank"><i class="fab fa-linkedin"></i></a>
+	     
+      </li>
+   	</center> 
+   	</ul>
+   </div>
+</div>
+
+
+</body>
+
+</html>
